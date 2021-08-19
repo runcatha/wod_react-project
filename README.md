@@ -65,25 +65,25 @@ https://whimsical.com/component-hierarchy-YTXpedZNpKUGR2ScSu96Kd
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Airtable setup            |    H     |     .5hrs      |      1hr      |     1hr     |
-| Clickable icons           |    H     |      1hrs      |      1hr      |     1hr     |
-| Data population pg 1      |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Data population pg 2      |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Data population pg 3      |    H     |      3hrs      |     2hrs      |    2hrs     |
-| Form creation pg 1        |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Form creation pg 2        |    H     |      2hrs      |     1 hr      |    1 hr     |
-| Form creation pg 3        |    H     |      2hrs      |     1 hr      |     1hr     |
-| Data creation/update pg 1 |    H     |      3hrs      |     3hrs      |    3hrs     |
-| Data creation/update pg 2 |    H     |      3hrs      |      1hr      |     1hr     |
-| Data creation/update pg 3 |    H     |      3hrs      |      1hr      |     1hr     |
-| Data deletion pg 1        |    H     |      2hrs      |      1hr      |     1hr     |
-| Data deletion pg 2        |    H     |      2hrs      |      1hr      |     1hr     |
-| Data deletion pg 3        |    H     |      2hrs      |      1hr      |     1hr     |
-| Component CSS pg 1        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Component CSS pg 2        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Component CSS pg 3        |    H     |      3hrs      |     4hrs      |    4hrs     |
-| Total                     |    H     |    42.5hrs     |     35hrs     |    35hrs    |
+| Proposal                  |    H     |     .5hrs      |     -hrs      |    -hrs     |
+| Airtable setup            |    H     |     .5hrs      |      -hr      |     -hr     |
+| README           |    H     |      3hrs      |      -hr      |     -hr     |
+| Home component      |    H     |      1hr      |     -hrs      |    -hrs     |
+| WOD specs component      |    H     |      1hr      |     -hrs      |    -hrs     |
+| Equip list component      |    H     |      1hr      |     -hrs      |    -hrs     |
+| WOD list component        |    H     |      1hr      |     -hrs      |    -hrs     |
+| Add WOD component        |    H     |      1hr      |     - hr      |    - hr     |
+| Edit WOD component        |    H     |      1hr      |     - hr      |     -hr     |
+| MVP CSS |    H     |      5hrs      |     -hrs      |    -hrs     |
+| Post MVP CSS |    H     |      4hrs      |      -hr      |     -hr     |
+| Adds |    H     |      2hrs      |      -hr      |     -hr     |
+| YouTube videos        |    H     |      2hrs      |      -hr      |     -hr     |
+| Delete on Specs component        |    H     |      1hr      |      -hr      |     -hr     |
+| Hover event/ animations        |    H     |      4hrs      |      -hr      |     -hr     |
+| Linkedin/ github in footer        |    H     |      2hrs      |     -hrs      |    -hrs     |
+| Add 'All the WOD's' component        |    H     |      2hrs      |     -hrs      |    -hrs     |
+| Adjust 'Give me a WOD'        |    H     |      2hrs      |     -hrs      |    -hrs     |
+| Total                     |    H     |    34hrs     |     -hrs     |    -hrs    |
 
 ## SWOT Analysis
 
