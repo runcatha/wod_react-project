@@ -89,8 +89,16 @@ https://whimsical.com/component-hierarchy-YTXpedZNpKUGR2ScSu96Kd
 
 ### Strengths:
 
+I have done the MVP protion of this project several times in labs and homework, so I am very confident in my ability to get this done on schedule.
+
 ### Weaknesses:
+
+I haven't done four of my post MVP's before. Nothing is too much of a stretch from my current skillset though.
 
 ### Opportunities:
 
+This project is an opportunity to really understand react and grid. It is also a chance to try some of the things I saw in projcet 1 that I really liked, namely animation.
+
 ### Threats:
+
+I need to not get lost in CSS. Since it has a tendency to eat up tons of time, I need to be disciplined with the MVP CSS, then pour my remaining time into post when everything else is done.
