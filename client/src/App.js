@@ -4,17 +4,18 @@ import axios from 'axios'
 import { baseURL, config } from './services'
 import React, { useEffect, useState } from 'react';
 import { Link, Route } from 'react-router-dom';
+import WODSpecs from './components/WODSpecs'
 
 function App() {
-  const [WODs, setWODs] = useState([])
+  const [wods, setWods] = useState([])
   const [toggleFetch, setToggleFetch] = useState(false)
   const [name, setName] = useState('')
 
   useEffect(() => {
     const getWods = async () => {
       const resp = await axios.get(baseURL, config)
-      console.log(resp.data)
-      setWODs(resp.data)
+      // console.log(resp.data)
+      setWods(resp.data)
     }
     getWods()
   }, [toggleFetch])
@@ -22,14 +23,15 @@ function App() {
   return (
     <>
       <Route path='/' exact>
-        <link to='/AllOfTheWODs'>
-          <h1>wod list</h1>
+        <Link to='/AllOfTheWODs'>
           <button id='wod'>Give me a WOD</button>
-        </link>
+        </Link>
       </Route>
       <div className='mega-grid'>
         <div className='header'>
-          <button id='home'>Home</button>
+          <Link to='/' >
+            <button id='home'>Home</button>
+          </Link>
         </div>
         <div className='nav-bar'>
           <h1>Nav</h1>
@@ -40,10 +42,7 @@ function App() {
         </div>
         <div className='content-column'>
           <Route path='/AllOfTheWODs' exact >
-            <AllOfTheWODs WODs={WODs} />
-            {/* <Link to={`/AllOfTheWODs`}> */}
-            {/* </div> */}
-            {/* </Link> */}
+            <AllOfTheWODs wods={wods} />
           </Route>
         </div >
         <div className='add-column'></div>

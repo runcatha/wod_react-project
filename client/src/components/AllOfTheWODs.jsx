@@ -1,21 +1,28 @@
-import { useParams } from 'react-router-dom'
+import { Link, Route, useParams } from 'react-router-dom'
 import React from 'react'
+import WODSpecs from './WODSpecs'
 
 function AllOfTheWODs(props) {
 
-  // console.log(WODs)
+  // console.log(props.wods.records)
+  const { wods } = props
   return (
     // const { index } = useParams()
     // const wod = {
-    < div >
+    <>
       {
-        props.WODs.map((WODs, index) => (
-          <div>
-            <h1> name:{WODs.fields.name}</h1>
+        props.wods.records.map((workOuts, index) => (
+          <div className='wod-list'>
+            <Link to='/WODSpecs'>
+              <button id='wod-name'>{workOuts.fields.name}</button>
+            </Link>
+            <Route path='/WODSpecs'>
+              <WODSpecs wods={props.wods.records} />
+            </Route>
           </div>
         ))
       }
-    </div>
+    </>
   )
   // return !wod ? (
   //   <h1>Alert, alert, WOD's not found...</h1>
