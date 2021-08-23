@@ -27,6 +27,9 @@ function App() {
           <button id='wod'>Give me a WOD</button>
         </Link>
       </Route>
+      <Route path='/WODSpecs/:index'>
+        <WODSpecs wods={wods} />
+      </Route>
       <div className='mega-grid'>
         <div className='header'>
           <Link to='/' >

@@ -4,7 +4,7 @@ import WODSpecs from './WODSpecs'
 
 function AllOfTheWODs(props) {
 
-  // console.log(props.wods.records)
+  console.log(props.wods.records)
   const { wods } = props
   return (
     // const { index } = useParams()
@@ -12,14 +12,13 @@ function AllOfTheWODs(props) {
     <>
       {
         props.wods.records.map((workOuts, index) => (
-          <div className='wod-list'>
-            <Link to='/WODSpecs'>
-              <button id='wod-name'>{workOuts.fields.name}</button>
-            </Link>
-            <Route path='/WODSpecs'>
-              <WODSpecs wods={props.wods.records} />
-            </Route>
-          </div>
+          <React.Fragment key={index} >
+            <div className='wod-list'>
+              <Link to={`/WODSpecs/${index}`} key={index}>
+                <button id='wod-name'>{workOuts.fields.name}</button>
+              </Link>
+            </div>
+          </React.Fragment>
         ))
       }
     </>

@@ -7,7 +7,7 @@ function WODSpecs(props) {
   const { id } = useParams()
   // const wod = props.wods.records[Number(index)]
   const wod = props.wods.find((wod) => wod.id === id)
-  console.log(props.wods)
+  // console.log(props.wods)
 
   return (
     <div className='wod-specs'>
