@@ -11,6 +11,7 @@ function EditWod(props) {
   const [description, setDescription] = useState('')
   const [equipment, setEquipment] = useState('')
   const params = useParams()
+  const history = useHistory()
 
   useEffect(() => {
     if (params.id && props.wods.length > 0) {
@@ -32,10 +33,13 @@ function EditWod(props) {
     }
     if (params.id) {
       await axios.put(`${baseURL}/${params.id}`, { fields: newWod }, config)
+      props.setToggleFetch((prevToggleFetch) => !prevToggleFetch)
+      history.push('/AllOfTheWODs')
     } else {
       await axios.post(baseURL, { fields: newWod }, config)
     }
   }
+
   return (
     <form onSubmit={handleSubmit}>
       <label htmlFor='name'>Name: </label>
@@ -46,19 +50,18 @@ function EditWod(props) {
         value={name}
       />
       <label htmlFor='description'>Description: </label>
-      <input
+      <textarea
         id='description'
-        type='text'
         onChange={(e) => setDescription(e.target.value)}
         value={description}
       />
       <label htmlFor='equipment'>Equipment: </label>
-      <input
+      <textarea
         id='equipment'
-        type='text'
         onChange={(e) => setEquipment(e.target.value)}
         value={equipment}
       />
+      <button type='submit'>Let's GOOOOOO!</button>
     </form>
   )
 }

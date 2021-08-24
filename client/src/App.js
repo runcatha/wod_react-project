@@ -1,5 +1,6 @@
 import AllOfTheWODs from './components/AllOfTheWODs';
 import './style/App.css';
+import './style/AllOfTheWODs.css'
 import axios from 'axios'
 import { baseURL, config } from './services'
 import React, { useEffect, useState } from 'react';
@@ -37,7 +38,9 @@ function App() {
           <Link to='/AddWOD'>
             <button id='add'>Add WOD</button>
           </Link>
-          <button id='equipment'>get equipment</button>
+          {/* <Link to='/EquipmentList'>
+            <button id='equipment'>get equipment</button>
+          </Link> */}
         </div>
         {/* End nav column  */}
         {/* Begin content column  */}
@@ -59,11 +62,15 @@ function App() {
               setToggleFetch={setToggleFetch}
               toggleFetch={toggleFetch} />
           </Route>
-          <Route path='/EditWOD'>
+          <Route path='/EditWOD/:id'>
             <EditWod wods={wods}
               setToggleFetch={setToggleFetch}
               toggleFetch={toggleFetch} />
           </Route>
+          {/* <Route path='/EquipmentList'>
+            <EquipmentList equipment={equipment}
+            />
+          </Route> */}
         </div >
         {/* Content column ends here */}
         <div className='add-column'></div>

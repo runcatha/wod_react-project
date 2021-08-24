@@ -1,0 +1,11 @@
+.wod-list{
+
+}
+
+#name{
+  border-style: solid;
+  border-color: #ced4d8;
+  color: #788896;
+  background-color: white;
+  border-radius: 5px;
+}

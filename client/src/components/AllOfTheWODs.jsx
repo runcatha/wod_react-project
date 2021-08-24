@@ -13,7 +13,7 @@ function AllOfTheWODs(props) {
           <React.Fragment key={index} >
             <div className='wod-list'>
               <Link to={`/WODSpecs/${workOuts.id}`} key={workOuts.id}>
-                <button id='wod-name'>{workOuts.fields.name}</button>
+                <button id='name'>{workOuts.fields.name}</button>
               </Link>
             </div>
           </React.Fragment>
