@@ -59,31 +59,31 @@ https://whimsical.com/component-hierarchy-YTXpedZNpKUGR2ScSu96Kd
 | Aug 24   | First four Post MVP's           | Incomplete |
 | Aug 25   | Last four Post MVP's                | Incomplete |
 | Aug 26   | Improve code and practice presentation                               | Incomplete |
-| Aug 27   | Presentations                              | Incomplete |
+| Aug 27   | Project Completed                              | Incomplete |
 
 ## Timeframes
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
-| Proposal                  |    H     |     .5hrs      |     -hrs      |    -hrs     |
-| Airtable setup            |    H     |     .5hrs      |      -hr      |     -hr     |
-| README           |    H     |      3hrs      |      -hr      |     -hr     |
-| Home component      |    H     |      1hr      |     -hrs      |    -hrs     |
-| WOD specs component      |    H     |      1hr      |     -hrs      |    -hrs     |
-| Equip list component      |    H     |      1hr      |     -hrs      |    -hrs     |
-| WOD list component        |    H     |      1hr      |     -hrs      |    -hrs     |
-| Add WOD component        |    H     |      1hr      |     - hr      |    - hr     |
+| Project Organization                  |    H     |     .5hrs      |     1hr      |    1hr     |
+| Airtable setup            |    H     |     .5hrs      |      .5hr      |     .5hr     |
+| README           |    H     |      3hrs      |      3hr      |     3hrs     |
+| Home component      |    H     |      1hr      |     1hr      |    1hr     |
+| WOD specs component      |    H     |      1hr      |     2hrs      |    2hrs     |
+| Equip list component      |    L     |      1hr      |     -hrs      |    -hrs     |
+| WOD list component        |    H     |      1hr      |     2hrs      |    2hrs     |
+| Add WOD component        |    H     |      1hr      |     2hrs      |    2hrs    |
 | Edit WOD component        |    H     |      1hr      |     - hr      |     -hr     |
 | MVP CSS |    H     |      5hrs      |     -hrs      |    -hrs     |
-| Post MVP CSS |    H     |      4hrs      |      -hr      |     -hr     |
-| Adds |    H     |      2hrs      |      -hr      |     -hr     |
-| YouTube videos        |    H     |      2hrs      |      -hr      |     -hr     |
-| Delete on Specs component        |    H     |      1hr      |      -hr      |     -hr     |
-| Hover event/ animations        |    H     |      4hrs      |      -hr      |     -hr     |
-| Linkedin/ github in footer        |    H     |      2hrs      |     -hrs      |    -hrs     |
-| Add 'All the WOD's' component        |    H     |      2hrs      |     -hrs      |    -hrs     |
-| Adjust 'Give me a WOD'        |    H     |      2hrs      |     -hrs      |    -hrs     |
-| Total                     |    H     |    34hrs     |     -hrs     |    -hrs    |
+| Post MVP CSS |    L     |      4hrs      |      -hr      |     -hr     |
+| Adds |    L    |      2hrs      |      -hr      |     -hr     |
+| YouTube videos        |    L     |      2hrs      |      -hr      |     -hr     |
+| Delete on Specs component        |    L     |      1hr      |      1hr      |     1hr     |
+| Hover event/ animations        |    L     |      4hrs      |      -hr      |     -hr     |
+| Linkedin/ github in footer        |    L     |      2hrs      |     -hrs      |    -hrs     |
+| Add 'All the WOD's' component        |    L     |      2hrs      |     -hrs      |    -hrs     |
+| Adjust 'Give me a WOD'        |    L     |      2hrs      |     -hrs      |    -hrs     |
+| Total                     |    -     |    34hrs     |     -hrs     |    -hrs    |
 
 ## SWOT Analysis
 

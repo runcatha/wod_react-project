@@ -4,17 +4,15 @@ import WODSpecs from './WODSpecs'
 
 function AllOfTheWODs(props) {
 
-  console.log(props.wods.records)
   const { wods } = props
+  console.log(wods)
   return (
-    // const { index } = useParams()
-    // const wod = {
     <>
       {
-        props.wods.records.map((workOuts, index) => (
+        wods.map((workOuts, index) => (
           <React.Fragment key={index} >
             <div className='wod-list'>
-              <Link to={`/WODSpecs/${index}`} key={index}>
+              <Link to={`/WODSpecs/${workOuts.id}`} key={workOuts.id}>
                 <button id='wod-name'>{workOuts.fields.name}</button>
               </Link>
             </div>
@@ -23,15 +21,6 @@ function AllOfTheWODs(props) {
       }
     </>
   )
-  // return !wod ? (
-  //   <h1>Alert, alert, WOD's not found...</h1>
-  // ) : (
-  //   <>
-  //     <div className='api-wods' key={props.WODs._id}>
-  //       <h3>{props.WODs.name}</h3>
-  //     </div>
-  //   </>
-  // )
 }
 
 export default AllOfTheWODs

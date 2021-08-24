@@ -24,7 +24,14 @@ grid-template-areas:
   grid-area: N;
   border-style: solid;
   border-color: blue;
+  display: flex;
+  flex-direction: column;
 }
+
+/* .add-wod {
+  grid-area: C;
+
+} */
 
 .content-column{
   grid-area: C;
