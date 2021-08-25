@@ -11,17 +11,19 @@ function AllOfTheWODs(props) {
       <div className='wod-list-title'>
         <h1>WOD list</h1>
       </div>
-      {
-        wods.map((workOuts, index) => (
-          <React.Fragment key={index} >
-            <div className='wod-list'>
-              <Link to={`/WODSpecs/${workOuts.id}`} key={workOuts.id}>
-                <button id='name'>{workOuts.fields.name}</button>
-              </Link>
-            </div>
-          </React.Fragment>
-        ))
-      }
+      <div className='wod-container'>
+        {
+          wods.map((workOuts, index) => (
+            <React.Fragment key={index} >
+              <div className='wod-list'>
+                <Link to={`/WODSpecs/${workOuts.id}`} key={workOuts.id}>
+                  <button id='name'>{workOuts.fields.name}</button>
+                </Link>
+              </div>
+            </React.Fragment>
+          ))
+        }
+      </div>
     </>
   )
 }

@@ -9,9 +9,23 @@
     width: 100%;
     justify-content: center;
 }
-.content-column{
-
+.wod-container{
+  /* grid-area: C; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  background-image: url('https://cdn.shopify.com/s/files/1/0044/7266/8275/articles/Mat_Fraser_0d679815-9b45-4bd9-87aa-d66a3fe94cee_1000x.jpg?v=1612196904');
+  object-fit: contain;
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
+.wod-container img{
+}
+
 
 #name{
   border-style: solid;

@@ -62,10 +62,10 @@ grid-template-areas:
 
 .content-column{
   grid-area: C;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: center; */
   background-image: url('https://i.pinimg.com/originals/dc/16/8f/dc168f68ad658d6163c6e29154358d42.jpg'); 
   background-size: contain;
   background-position: center;
@@ -85,7 +85,7 @@ grid-template-areas:
   flex-direction: column;
 }
 .add-title{
-  
+
 }
 #add-one{
   height: 70%;
