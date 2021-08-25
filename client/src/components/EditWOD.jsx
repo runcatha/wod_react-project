@@ -43,7 +43,7 @@ function EditWod(props) {
   return (
     <>
       <div className='edit-title'>
-        <p>Edit WOD</p>
+        <h1>Edit WOD</h1>
       </div>
       <div className='edit'>
         <form onSubmit={handleSubmit}>

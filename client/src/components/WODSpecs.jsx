@@ -26,7 +26,9 @@ function WODSpecs(props) {
 
   return (
     <>
-      <div className='spec-title'></div>
+      <div className='spec-title'>
+        <h1>WOD Specs</h1>
+      </div>
       <div className='wod-specs'>
         <div className='name-box'>
           <div className='name-title'>

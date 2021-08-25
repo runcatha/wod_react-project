@@ -23,16 +23,28 @@ function AddWOD(props) {
   }
 
   return (
-    <form className='add-wod' onSubmit={handleSubmit}>
-      <h4>Add a WOD!</h4>
-      <label>name</label>
-      <input value={name} onChange={(e) => setName(e.target.value)} />
-      <label>description</label>
-      <input value={description} onChange={(e) => setDescription(e.target.value)} />
-      <label>equipment</label>
-      <input value={equipment} onChange={(e) => setEquipment(e.target.value)} />
-      <button type='submit'>Let's go!!</button>
-    </form >
+    <>
+      <div className='add-title'>
+        <h1>Add a WOD</h1>
+      </div>
+      <div className='add'>
+        <form className='add-wod' onSubmit={handleSubmit}>
+          <div className='name-spot'>
+            <label>name</label>
+            <input value={name} onChange={(e) => setName(e.target.value)} />
+          </div>
+          <div className='desc-spot'>
+            <label>description</label>
+            <input value={description} onChange={(e) => setDescription(e.target.value)} />
+          </div>
+          <div className='equip-spot'>
+            <label>equipment</label>
+            <input value={equipment} onChange={(e) => setEquipment(e.target.value)} />
+          </div>
+          <button id='add' type='submit'>Let's go!!</button>
+        </form >
+      </div>
+    </>
   )
 }
 
