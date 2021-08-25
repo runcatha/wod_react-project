@@ -1,26 +1,39 @@
 import AllOfTheWODs from './components/AllOfTheWODs';
 import './style/App.css';
 import './style/AllOfTheWODs.css'
+import './style/WODSpecs.css'
 import axios from 'axios'
-import { baseURL, config } from './services'
+import { baseWodURL, baseEquipmentURL, config } from './services'
 import React, { useEffect, useState } from 'react';
 import { Link, Route } from 'react-router-dom';
 import WODSpecs from './components/WODSpecs'
 import AddWOD from './components/AddWOD';
 import EditWod from './components/EditWOD';
+import EquipmentList from './components/EquipmentList'
 
 function App() {
   const [wods, setWods] = useState([])
+  const [equipment, setEquipment] = useState([])
   const [toggleFetch, setToggleFetch] = useState(false)
   // const [name, setName] = useState('')
 
   useEffect(() => {
     const getWods = async () => {
-      const resp = await axios.get(baseURL, config)
+      const resp = await axios.get(baseWodURL, config)
+      // console.log(resp.data.records)
 
       setWods(resp.data.records)
     }
     getWods()
+  }, [toggleFetch])
+  useEffect(() => {
+    const getEquipment = async () => {
+      const resp = await axios.get(baseEquipmentURL, config)
+
+      // console.log(resp.data.records)
+      setEquipment(resp.data.records)
+    }
+    getEquipment()
   }, [toggleFetch])
 
   return (
@@ -39,13 +52,16 @@ function App() {
           <Link to='/AddWOD'>
             <button id='add'>Add WOD</button>
           </Link>
-          {/* <Link to='/EquipmentList'>
+          <Link to='/EquipmentList'>
             <button id='equipment'>get equipment</button>
-          </Link> */}
+          </Link>
         </div>
         {/* End nav column  */}
         {/* Begin content column  */}
         <div className='content-column'>
+          <Route path='/EquipmentList'>
+            <EquipmentList equipment={equipment} />
+          </Route>
           <Route path='/' exact>
             <Link to='/AllOfTheWODs'>
               <button id='wod'>Give me a WOD</button>
@@ -75,6 +91,8 @@ function App() {
         </div >
         {/* Content column ends here */}
         <div className='add-column'>
+          <div className='add-title'>
+          </div>
           <a href='https://www.crossfit.com/'>
             <img id='add-one' src='data:image/png;base64,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'
               alt='CrossFit' />
@@ -85,10 +103,14 @@ function App() {
           </a>
         </div>
         <div className='footer'>
-          <img id='github' src='https://res.cloudinary.com/briandanger/image/upload/v1568954107/github_fpykxh.png'
-            alt='Github' />
-          <img id='linkedin' src='https://res.cloudinary.com/briandanger/image/upload/v1568954107/linkedin_vnvo6s.png'
-            alt='LinkedIn' />
+          <a href='https://github.com/runcatha'>
+            <img id='github' src='https://res.cloudinary.com/briandanger/image/upload/v1568954107/github_fpykxh.png'
+              alt='Github' />
+          </a>
+          <a href='https://www.linkedin.com/in/cathleen-runde-10692b204/'>
+            <img id='linkedin' src='https://res.cloudinary.com/briandanger/image/upload/v1568954107/linkedin_vnvo6s.png'
+              alt='LinkedIn' />
+          </a>
         </div>
       </div >
     </>

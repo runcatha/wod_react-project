@@ -8,6 +8,9 @@ function AllOfTheWODs(props) {
   console.log(wods)
   return (
     <>
+      <div className='wod-list-title'>
+        <h1>WOD list</h1>
+      </div>
       {
         wods.map((workOuts, index) => (
           <React.Fragment key={index} >

@@ -3,7 +3,7 @@ display: grid;
 grid-template-rows: 100px 50px 600px 100px;
 grid-template-areas: 
 'H H H H H'
-'NB NB NB NB NB'
+'NB C C C A'
 'N C C C A'
 'F F F F F';
 }
@@ -54,6 +54,12 @@ grid-template-areas:
     border-radius: 5px;
 }
 
+#equipment{
+  background-color: #788896;
+    color: white;
+    border-radius: 5px;
+}
+
 .content-column{
   grid-area: C;
   display: flex;
@@ -78,12 +84,15 @@ grid-template-areas:
   display: flex;
   flex-direction: column;
 }
+.add-title{
+  
+}
 #add-one{
-  height: 50%;
+  height: 70%;
 }
 
 #add-two{
-  height: 50%;
+  height: 70%;
 }
 .footer{
   grid-area: F;
@@ -95,5 +104,9 @@ grid-template-areas:
 }
 
 #github{
+  height: 70%;
+}
 
+#linkedin{
+  height: 70%
 }

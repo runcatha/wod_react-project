@@ -1,5 +1,5 @@
 import axios from "axios"
-import { baseURL, config } from '../services'
+import { baseWodURL, config } from '../services'
 import { Link, Route } from 'react-router-dom'
 import { useEffect, useState } from "react"
 import { useHistory } from 'react-router-dom'
@@ -32,11 +32,11 @@ function EditWod(props) {
       equipment
     }
     if (params.id) {
-      await axios.put(`${baseURL}/${params.id}`, { fields: newWod }, config)
+      await axios.put(`${baseWodURL}/${params.id}`, { fields: newWod }, config)
       props.setToggleFetch((prevToggleFetch) => !prevToggleFetch)
       history.push('/AllOfTheWODs')
     } else {
-      await axios.post(baseURL, { fields: newWod }, config)
+      await axios.post(baseWodURL, { fields: newWod }, config)
     }
   }
 

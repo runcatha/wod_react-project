@@ -1,7 +1,14 @@
 .wod-list{
   background-image: url('https://imgur.com/5ZLyIZ7');
 }
-
+.wod-list-title{
+  display: flex;
+  flex-direction: row;
+  background: #788896;
+    color: white;
+    width: 100%;
+    justify-content: center;
+}
 .content-column{
 
 }

@@ -1,0 +1,52 @@
+.name-box{
+  display: flex;
+  flex-direction: row;
+}
+.name-title{
+  background-color: #788896;
+  color: white;
+}
+.name-name{
+  border-style: solid;
+  border-color: #ced4d8;
+  background-color: white;
+  color: #788896;
+}
+.desc-box{
+display: flex;
+flex-direction: column;
+}
+.desc-name{
+  background-color: #788896;
+  color: white;
+}
+.desc-desc{
+  border-style: solid;
+  border-color: #ced4d8;
+  background-color: white;
+  color: #788896;
+}
+.equip-box{
+  display: flex;
+  flex-direction: column;
+}
+.equip-name{
+  background-color: #788896;
+  color: white;
+}
+.equip-equip{
+  border-style: solid;
+  border-color: #ced4d8;
+  background-color: white;
+  color: #788896;
+}
+#delete{
+  background-color: #788896;
+  color: white;
+  border-radius: 5px;
+}
+#edit{
+  background-color: #788896;
+  color: white;
+  border-radius: 5px;
+}
