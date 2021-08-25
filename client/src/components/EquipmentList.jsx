@@ -8,15 +8,20 @@ function EquipmentList(props) {
 
   return (
     <>
-      {
-        equipment.map((items, index) => (
-          <React.Fragment key={index} >
-            <div className='equipment-list'>
-              <button id='equ'>{items.fields.name}</button>
-            </div>
-          </React.Fragment>
-        ))
-      }
+      <div className='equipment-title'>
+        <h1>Equipment List</h1>
+      </div>
+      <div className='equipment'>
+        {
+          equipment.map((items, index) => (
+            <React.Fragment key={index} >
+              <div className='equipment-list'>
+                <button id='equ'>{items.fields.name}</button>
+              </div>
+            </React.Fragment>
+          ))
+        }
+      </div>
     </>
   )
 }

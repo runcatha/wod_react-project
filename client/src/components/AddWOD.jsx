@@ -30,8 +30,12 @@ function AddWOD(props) {
       <div className='add'>
         <form className='add-wod' onSubmit={handleSubmit}>
           <div className='name-spot'>
-            <label>name</label>
-            <input value={name} onChange={(e) => setName(e.target.value)} />
+            <div className='name-label'>
+              <label>name</label>
+            </div>
+            {/* <div className='name-input'> */}
+            <input id='namelabel' value={name} onChange={(e) => setName(e.target.value)} />
+            {/* </div> */}
           </div>
           <div className='desc-spot'>
             <label>description</label>
@@ -41,7 +45,7 @@ function AddWOD(props) {
             <label>equipment</label>
             <input value={equipment} onChange={(e) => setEquipment(e.target.value)} />
           </div>
-          <button id='add' type='submit'>Let's go!!</button>
+          <button id='add' type='submit'>3... 2... 1... Go!</button>
         </form >
       </div>
     </>

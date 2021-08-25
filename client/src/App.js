@@ -4,6 +4,7 @@ import './style/AllOfTheWODs.css'
 import './style/WODSpecs.css'
 import './style/EditWOD.css'
 import './style/AddWOD.css'
+import './style/EquipmentList.css'
 import axios from 'axios'
 import { baseWodURL, baseEquipmentURL, config } from './services'
 import React, { useEffect, useState } from 'react';

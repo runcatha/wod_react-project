@@ -1,7 +1,4 @@
-.wod-list{
-  background-image: url('https://imgur.com/5ZLyIZ7');
-}
-.wod-list-title{
+.equipment-title{
   display: flex;
   flex-direction: row;
   background: #788896;
@@ -10,29 +7,24 @@
     justify-content: center;
     height: 50px;
 }
-h1 {
-  margin: 0;
-}
-.wod-container{
+.equipment{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   height: 100%;
-  background-image: url('https://cdn.shopify.com/s/files/1/0044/7266/8275/articles/Mat_Fraser_0d679815-9b45-4bd9-87aa-d66a3fe94cee_1000x.jpg?v=1612196904');
+  background-image: url('https://www.workingagainstgravity.com/media/xuuh05ft/tiaint1.jpg?anchor=center&mode=crop&rnd=132514718439470000');
   object-fit: contain;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
-
-#name{
+#equ{
   border-style: solid;
   border-color: #ced4d8;
   color: #788896;
   background-color: white;
   border-radius: 5px;
   width: 25vw;
-  height: 6vh;
+  height: 4vh;
 }

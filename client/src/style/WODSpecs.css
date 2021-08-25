@@ -24,6 +24,9 @@
   flex-direction: row;
   border-style: solid;
   border-color: #ced4d8;
+  margin-right: 54%;
+  height: 6vh;
+  /* width: 60vw; */
 }
 .name-title{
   background-color: #788896;
@@ -38,28 +41,34 @@ display: flex;
 flex-direction: column;
 border-style: solid;
 border-color: #ced4d8;
+width: 60vw;
 }
 .desc-name{
   background-color: #788896;
   color: white;
+  height: 7vh;
 }
 .desc-desc{
   background-color: white;
   color: #788896;
+  height: 20vh
 }
 .equip-box{
   display: flex;
   flex-direction: column;
   border-style: solid;
   border-color: #ced4d8;
+  width: 60vw;
 }
 .equip-name{
   background-color: #788896;
   color: white;
+  height: 7vh;
 }
 .equip-equip{
   background-color: white;
   color: #788896;
+  height: 10vh;
 }
 .spec-buttons{
   display: flex;
