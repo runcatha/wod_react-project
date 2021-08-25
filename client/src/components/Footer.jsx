@@ -1,9 +1,3 @@
-// const Nav = (props) => {
-//   return (
-//     <nav>
-//       <button onClick={() => props.setCurrent('AllOfTheWODs')}>Give me a WOD</button>
-//     </nav>
-//   )
-// }
+const Footer(props) {
 
-// export default Nav
+}
