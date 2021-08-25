@@ -73,14 +73,14 @@ https://whimsical.com/component-hierarchy-YTXpedZNpKUGR2ScSu96Kd
 | Equip list component      |    L     |      1hr      |     -hrs      |    -hrs     |
 | WOD list component        |    H     |      1hr      |     2hrs      |    2hrs     |
 | Add WOD component        |    H     |      1hr      |     2hrs      |    2hrs    |
-| Edit WOD component        |    H     |      1hr      |     - hr      |     -hr     |
+| Edit WOD component        |    H     |      1hr      |     2hrs      |     2hrs     |
 | MVP CSS |    H     |      5hrs      |     -hrs      |    -hrs     |
 | Post MVP CSS |    L     |      4hrs      |      -hr      |     -hr     |
-| Adds |    L    |      2hrs      |      -hr      |     -hr     |
+| Adds |    L    |      2hrs      |      .5hr      |     -hr     |
 | YouTube videos        |    L     |      2hrs      |      -hr      |     -hr     |
 | Delete on Specs component        |    L     |      1hr      |      1hr      |     1hr     |
 | Hover event/ animations        |    L     |      4hrs      |      -hr      |     -hr     |
-| Linkedin/ github in footer        |    L     |      2hrs      |     -hrs      |    -hrs     |
+| Linkedin/ github in footer        |    L     |      2hrs      |     .5hr      |    -hrs     |
 | Add 'All the WOD's' component        |    L     |      2hrs      |     -hrs      |    -hrs     |
 | Adjust 'Give me a WOD'        |    L     |      2hrs      |     -hrs      |    -hrs     |
 | Total                     |    -     |    34hrs     |     -hrs     |    -hrs    |
