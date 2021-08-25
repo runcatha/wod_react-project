@@ -60,13 +60,16 @@ function App() {
         {/* End nav column  */}
         {/* Begin content column  */}
         <div className='content-column'>
+          <div className='mid-nav'></div>
           <Route path='/EquipmentList'>
             <EquipmentList equipment={equipment} />
           </Route>
           <Route path='/' exact>
-            <Link to='/AllOfTheWODs'>
-              <button id='wod'>Give me a WOD</button>
-            </Link>
+            <div className='home-content'>
+              <Link to='/AllOfTheWODs'>
+                <button id='wod'>Give me a WOD</button>
+              </Link>
+            </div>
           </Route>
           <Route path='/AllOfTheWODs' exact >
             <AllOfTheWODs wods={wods} />
@@ -92,6 +95,7 @@ function App() {
         </div >
         {/* Content column ends here */}
         <div className='add-column'>
+          <div className='finish-nav'></div>
           <div className='add-title'>
           </div>
           <a href='https://www.crossfit.com/'>

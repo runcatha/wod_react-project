@@ -1,42 +1,49 @@
-.name-box{
+.edit-title{
+  display: flex;
+  flex-direction: row;
+  background: #788896;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+}
+.edit{
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5ddb9fbcaf29e926fca37b83/1580995120509-2JA6RO444UIRYDHVT1R1/IMG_3033.JPG?format=2500w');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; 
+  object-fit: contain;
+}
+.name-area{
+  border-style: solid;
+  border-color: #ced4d8;
+  background-color: white;
+  color: #788896;
+  width: 40%;
   display: flex;
   flex-direction: row;
 }
-.name-title{
-  background-color: #788896;
-  color: white;
-}
-.name-name{
+.desc-area{
   border-style: solid;
   border-color: #ced4d8;
   background-color: white;
   color: #788896;
-}
-.desc-box{
-display: flex;
-flex-direction: column;
-}
-.desc-name{
-  background-color: #788896;
-  color: white;
-}
-.desc-desc{
-  border-style: solid;
-  border-color: #ced4d8;
-  background-color: white;
-  color: #788896;
-}
-.equip-box{
+  width: 40%;
   display: flex;
   flex-direction: column;
 }
-.equip-name{
-  background-color: #788896;
-  color: white;
-}
-.equip-equip{
+.equip-area{
   border-style: solid;
   border-color: #ced4d8;
   background-color: white;
   color: #788896;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+#edit{
+  background-color: #788896;
+  color: white;
+  border-radius: 5px;
 }

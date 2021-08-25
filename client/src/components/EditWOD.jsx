@@ -41,28 +41,41 @@ function EditWod(props) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <label htmlFor='name'>Name: </label>
-      <input
-        id='name'
-        type='text'
-        onChange={(e) => setName(e.target.value)}
-        value={name}
-      />
-      <label htmlFor='description'>Description: </label>
-      <textarea
-        id='description'
-        onChange={(e) => setDescription(e.target.value)}
-        value={description}
-      />
-      <label htmlFor='equipment'>Equipment: </label>
-      <textarea
-        id='equipment'
-        onChange={(e) => setEquipment(e.target.value)}
-        value={equipment}
-      />
-      <button type='submit'>Let's GOOOOOO!</button>
-    </form>
+    <>
+      <div className='edit-title'>
+        <p>Edit WOD</p>
+      </div>
+      <div className='edit'>
+        <form onSubmit={handleSubmit}>
+          <div className='name-area'>
+            <label htmlFor='name'>Name: </label>
+            <input
+              id='name'
+              type='text'
+              onChange={(e) => setName(e.target.value)}
+              value={name}
+            />
+          </div>
+          <div className='desc-area'>
+            <label htmlFor='description'>Description: </label>
+            <textarea
+              id='description'
+              onChange={(e) => setDescription(e.target.value)}
+              value={description}
+            />
+          </div>
+          <div className='equip-area'>
+            <label htmlFor='equipment'>Equipment: </label>
+            <textarea
+              id='equipment'
+              onChange={(e) => setEquipment(e.target.value)}
+              value={equipment}
+            />
+          </div>
+          <button id='edit' type='submit'>Let's GOOOOOO!</button>
+        </form >
+      </div>
+    </>
   )
 }
 

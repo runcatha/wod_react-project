@@ -39,6 +39,14 @@ grid-template-areas:
   padding-left: 7%;
 }
 
+.finish-nav{
+  background: #788896;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+}
+
 .nav-column{
   grid-area: N;
   background-color: #dfe6ed;
@@ -66,10 +74,20 @@ grid-template-areas:
   flex-direction: column;
   justify-content: space-around;
   align-items: center; */
-  background-image: url('https://i.pinimg.com/originals/dc/16/8f/dc168f68ad658d6163c6e29154358d42.jpg'); 
+  background-image: url("https://pbs.twimg.com/media/CsaJEvLUsAAoUEY.jpg:large"); 
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+/* .mid-nav{
+  background: #788896;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+} */
+.home-content{
+  
 }
 
 #wod{
