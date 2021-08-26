@@ -5,22 +5,20 @@
   flex-direction: column;
   height: 100%;
 }
-#crossfit-logo{
-display: none;
+.carousel-inner{
+  width: 100%;
+    background-color: white;
+    height: 100%;
 }
 #crossfit-sponsors{
-  /* width: 100%;
-  height: 40%; */
-}
-#GA-logo{
-display: none;
 }
 #tech-sponsors{
-  /* height: 40%;
-  width: 100%; */
 }
-#No-Bull{
-
+#crossfit-logo{
+  display: none;
+}
+#GA-logo{
+  display: none;
 }
 @media all and (max-width: 450px){
   .add-column{
@@ -28,21 +26,20 @@ display: none;
     background-color: #dfe6ed;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
   }
+#crossfit-logo{
+  display: block;
+}
+#GA-logo{
+  display: block;
+}
 #crossfit-sponsors{
-  width: 50%;
-  height: 50%;
-}
-#tech-sponsors{
-  width: 50%;
-  height: 50%;
-}
-/* #crossfit-sponsors{
   display: none;
 }
 #tech-sponsors{
  display: none;
-} */
+}
 #No-Bull{
 display: none;
 }
