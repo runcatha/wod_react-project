@@ -50,7 +50,7 @@ function EditWod(props) {
           <div className='name-area'>
             <label htmlFor='name'>Name: </label>
             <input
-              id='name'
+              id='edit-name'
               type='text'
               onChange={(e) => setName(e.target.value)}
               value={name}

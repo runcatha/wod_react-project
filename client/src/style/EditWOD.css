@@ -14,36 +14,44 @@
   background-size: cover;
   background-position: center center; 
   object-fit: contain;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .name-area{
   border-style: solid;
   border-color: #ced4d8;
   background-color: white;
   color: #788896;
-  width: 40%;
   display: flex;
   flex-direction: row;
+  margin: 10%;
+}
+#edit-name{
+  
 }
 .desc-area{
   border-style: solid;
   border-color: #ced4d8;
   background-color: white;
   color: #788896;
-  width: 40%;
   display: flex;
   flex-direction: column;
+  margin: 10%;
 }
 .equip-area{
   border-style: solid;
   border-color: #ced4d8;
   background-color: white;
   color: #788896;
-  width: 40%;
   display: flex;
   flex-direction: column;
+  margin: 10%;
 }
 #edit{
   background-color: #788896;
   color: white;
   border-radius: 5px;
+  margin-left: 27%;
 }

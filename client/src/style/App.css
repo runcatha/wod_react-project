@@ -77,6 +77,9 @@ grid-template-areas:
   display: flex;
   flex-direction: column;
 }
+.add-title{
+  /* display: block; */
+}
 #add-one{
   height: 70%;
 }
@@ -104,13 +107,20 @@ grid-template-areas:
 @media all and (max-width: 450px) {
   .mega-grid{
     display: grid;
-    grid-template-rows: 100px 400px 200px 50px;
+    grid-template-rows: 100px 100px 400px 200px 100px;
     grid-template-areas: 
     'H N'
     'C C'
     'C C'
     'A A'
     'F F';
+    }
+    #wod{
+      margin-left: 38%;
+      margin-top: 106%;
+    }
+    .add-title{
+      display: none;
     }
     .nav-column{
       grid-area: N;
@@ -126,12 +136,20 @@ grid-template-areas:
       display: flex;
       flex-direction: row;
     }
+    #crossfit{
+      width: 50%;
+    }
+    #ga{
+      width: 50%;
+    }
     #add-one{
-      height: 15vh;
+      height: 100%;
+      width: 100%;
     }
     
     #add-two{
-      height: 15vh;
+      height: 100%;
+      width: 100%;
     }
     #github{
       height: 15vh;

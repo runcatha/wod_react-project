@@ -24,7 +24,7 @@ function AddWOD(props) {
 
   return (
     <>
-      <div className='add-title'>
+      <div className='add-wod-title'>
         <h1>Add a WOD</h1>
       </div>
       <div className='add'>
