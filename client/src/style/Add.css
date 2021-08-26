@@ -1,0 +1,52 @@
+.add-column{
+  grid-area: A;
+  background-color: #dfe6ed;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+#crossfit-sponsors{
+  height: 50%;
+  width: 100%;
+}
+#tech-sponsors{
+  height: 50%;
+  width: 100%;
+}
+.Carousel.Item{
+  
+}
+#cs-one{
+
+}
+#cs-two{
+
+}
+#cs-three{
+
+}
+#ts-one{
+
+}
+#ts-two{
+
+}
+#ts-three{
+
+}
+@media all and (max-width: 450px){
+  .add-column{
+    grid-area: A;
+    background-color: #dfe6ed;
+    display: flex;
+    flex-direction: row;
+  }
+#crossfit-sponsors{
+  width: 50%;
+  height: 50%;
+}
+#tech-sponsors{
+  width: 50%;
+  height: 50%;
+}
+}

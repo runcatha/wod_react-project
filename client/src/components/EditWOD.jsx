@@ -42,38 +42,41 @@ function EditWod(props) {
 
   return (
     <>
-      <div className='edit-title'>
-        <h1>Edit WOD</h1>
-      </div>
-      <div className='edit'>
-        <form onSubmit={handleSubmit}>
-          <div className='name-area'>
-            <label htmlFor='name'>Name: </label>
-            <input
-              id='edit-name'
-              type='text'
-              onChange={(e) => setName(e.target.value)}
-              value={name}
-            />
-          </div>
-          <div className='desc-area'>
-            <label htmlFor='description'>Description: </label>
-            <textarea
-              id='description'
-              onChange={(e) => setDescription(e.target.value)}
-              value={description}
-            />
-          </div>
-          <div className='equip-area'>
-            <label htmlFor='equipment'>Equipment: </label>
-            <textarea
-              id='equipment'
-              onChange={(e) => setEquipment(e.target.value)}
-              value={equipment}
-            />
-          </div>
-          <button id='edit' type='submit'>Let's GOOOOOO!</button>
-        </form >
+      <div className='edit-form'>
+
+        <div className='edit-title'>
+          <h1>Edit WOD</h1>
+        </div>
+        <div className='edit'>
+          <form id='edit-wod-form' onSubmit={handleSubmit}>
+            <div className='name-area'>
+              <label id='name-name-area'>Name: </label>
+              <input
+                id='name-name-textarea'
+                type='text'
+                onChange={(e) => setName(e.target.value)}
+                value={name}
+              />
+            </div>
+            <div className='desc-area'>
+              <label id='description-name-area'>Description: </label>
+              <textarea
+                id='description-equipment-textarea'
+                onChange={(e) => setDescription(e.target.value)}
+                value={description}
+              />
+            </div>
+            <div className='equip-area'>
+              <label id='equipment-name-area'>Equipment: </label>
+              <textarea
+                id='edit-equipment-textarea'
+                onChange={(e) => setEquipment(e.target.value)}
+                value={equipment}
+              />
+            </div>
+            <button id='edit-button' type='submit'>Let's GOOOOOO!</button>
+          </form >
+        </div>
       </div>
     </>
   )

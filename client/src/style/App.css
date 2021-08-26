@@ -1,6 +1,7 @@
 .mega-grid{
 display: grid;
 grid-template-rows: 100px 50px 600px 100px;
+grid-template-columns: 20% 20% 20% 20% 20%;
 grid-template-areas: 
 'H H H H H'
 'NB C C C A'
@@ -56,37 +57,61 @@ grid-template-areas:
 .content-column{
   grid-area: C;
   background-image: url("https://pbs.twimg.com/media/CsaJEvLUsAAoUEY.jpg:large"); 
-  background-size: contain;
-  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-size: cover;
+  object-fit: contain;
 }
 
+.home-content{
+  position: relative;
+  /* bottom: 4%; */
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: flex-end;
+}
 #wod{
   background-color: #788896;
   color: white;
   border-radius: 5px;
-  margin-left: 40%;
-  margin-top: 134%;
-  width: 18vw;
-  height: 5vh;
+  /* margin-left: 40%;
+  margin-top: 134%; */
+  width: 26vw;
+  height: 8vh;
 }
-
-.add-column{
+.add-column-area{
+  grid-area: A;
+  background-color: #dfe6ed;
+  display: flex;
+  flex-direction: column;
+}
+/* .add-column{
   grid-area: A;
   background-color: #dfe6ed;
   display: flex;
   flex-direction: column;
 }
 .add-title{
-  /* display: block; */
+  display: block;
+}
+#crossfit{
+  width: 50%;
+  height: 50%;
 }
 #add-one{
-  height: 70%;
+  height: 100%;
+    width: 100%;
 }
-
+#ga{
+  width: 50%;
+  height: 50%;
+}
 #add-two{
-  height: 70%;
-}
+  height: 100%;
+    width: 100%;
+} */
 .footer{
   grid-area: F;
   background-color: #c3cfd9;
@@ -107,7 +132,8 @@ grid-template-areas:
 @media all and (max-width: 450px) {
   .mega-grid{
     display: grid;
-    grid-template-rows: 100px 100px 400px 200px 100px;
+    grid-template-rows: 100px 100px 600px 200px 100px;
+    grid-template-columns: 50% 50%;
     grid-template-areas: 
     'H N'
     'C C'
@@ -116,8 +142,8 @@ grid-template-areas:
     'F F';
     }
     #wod{
-      margin-left: 38%;
-      margin-top: 106%;
+      /* margin-left: 38%;
+      margin-top: 138%; */
     }
     .add-title{
       display: none;
@@ -130,27 +156,15 @@ grid-template-areas:
       justify-content: space-around;
       align-items: center;
     }
-    .add-column{
+    .nav-bar{
+      display: none;
+    }
+    /* .add-column{
       grid-area: A;
       background-color: #dfe6ed;
       display: flex;
       flex-direction: row;
-    }
-    #crossfit{
-      width: 50%;
-    }
-    #ga{
-      width: 50%;
-    }
-    #add-one{
-      height: 100%;
-      width: 100%;
-    }
-    
-    #add-two{
-      height: 100%;
-      width: 100%;
-    }
+    } */
     #github{
       height: 15vh;
     }
