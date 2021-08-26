@@ -24,29 +24,42 @@ function AddWOD(props) {
 
   return (
     <>
-      <div className='add-wod-title'>
-        <h1>Add a WOD</h1>
-      </div>
-      <div className='add'>
-        <form className='add-wod' onSubmit={handleSubmit}>
-          <div className='name-spot'>
-            <div className='name-label'>
-              <label>name</label>
+      <div className='add-form'>
+
+        <div className='add-wod-title'>
+          <h1>Add a WOD</h1>
+        </div>
+        <div className='add'>
+          <form id='add-wod-form' onSubmit={handleSubmit}>
+            <div className='name-spot'>
+              <label id='name-name-label'>name</label>
+              <input
+                id='name-name-text'
+                type='text'
+                onChange={(e) => setName(e.target.value)}
+                value={name}
+              />
             </div>
-            {/* <div className='name-input'> */}
-            <input id='namelabel' value={name} onChange={(e) => setName(e.target.value)} />
-            {/* </div> */}
-          </div>
-          <div className='desc-spot'>
-            <label>description</label>
-            <input value={description} onChange={(e) => setDescription(e.target.value)} />
-          </div>
-          <div className='equip-spot'>
-            <label>equipment</label>
-            <input value={equipment} onChange={(e) => setEquipment(e.target.value)} />
-          </div>
-          <button id='add' type='submit'>3... 2... 1... Go!</button>
-        </form >
+            <div className='desc-spot'>
+              <label id='desc-name-spot'>description</label>
+              <input
+                id='desc-name-text'
+                value={description}
+                onChange={(e) => setDescription(e.target.value)}
+              />
+            </div>
+            <div className='equip-spot'>
+              <label id='equip-name-spot'>equipment</label>
+              <input
+                id='equip-name-text'
+                value={equipment}
+                onChange={(e) => setEquipment(e.target.value)}
+              />
+            </div>
+            <button id='add-button' type='submit'>3... 2... 1... Go!</button>
+          </form >
+        </div>
+
       </div>
     </>
   )

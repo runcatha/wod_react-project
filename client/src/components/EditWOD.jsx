@@ -77,6 +77,7 @@ function EditWod(props) {
             <button id='edit-button' type='submit'>Let's GOOOOOO!</button>
           </form >
         </div>
+
       </div>
     </>
   )
