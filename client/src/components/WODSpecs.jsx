@@ -15,7 +15,6 @@ function WODSpecs(props) {
     return null
   }
   const wod = props.wods.find((wod) => wod.id === id)
-  console.log(wod)
   const { fields } = props
 
   const handleDelete = async () => {

@@ -71,11 +71,7 @@ function Add() {
             </a>
           </Carousel.Item>
         </Carousel>
-        {/* Tech carousel starts here */}
-        {/* <img id='No-Bull'
-          src='https://i.imgur.com/z4M91ta.jpg'
-          alt='No-Bull'
-        /> */}
+        {/* Tech carousel ends here */}
       </div>
     </>
   )

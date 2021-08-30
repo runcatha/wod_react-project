@@ -1,6 +1,5 @@
 .mega-grid{
 display: grid;
-/* grid-template-rows: 10% 40% 40% 10%; */
 grid-template-rows: 100px 600px 100px 100px;
 grid-template-columns: 15% 20% 20% 20% 25%;
 grid-template-areas: 

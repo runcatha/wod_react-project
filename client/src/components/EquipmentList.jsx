@@ -4,7 +4,6 @@ import React from 'react'
 function EquipmentList(props) {
 
   const { equipment } = props
-  // console.log(equipment)
 
   return (
     <>

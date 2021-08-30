@@ -45,7 +45,7 @@ https://whimsical.com/component-hierarchy-YTXpedZNpKUGR2ScSu96Kd
 -Improve CSS with images and opacity to create a more impressive design
 -A link to a youTube video demonstraiting the WOD will be added to the API and WOD specs component
 -A delete button will be added to the WOD specs component
--Hover event listener will be added to the 'Give me a WOD' button causing a  Dave Castro animation to enter the screen
+-A Bootstrap Carousel will be added to the add column so that the adds rotate
 -Linkin and github will be linked in the footer
 -The 'Give me a WOD' component will be altered to bring the user to the WOD specs of a randomly slected WOD from the API
 -A new link will be added to the nav 'All of the WOD's!' which will bring the user to the WOD list
@@ -54,12 +54,12 @@ https://whimsical.com/component-hierarchy-YTXpedZNpKUGR2ScSu96Kd
 
 | Day      | Deliverable                                | Status   |
 | -------- | ------------------------------------------ | -------- |
-| Aug 19-20 | Proposal Approval / Airtable Setup / README         | Incomplete |
-| Aug 21-23   | render API data / complete MVP code | Incomplete |
-| Aug 24   | First four Post MVP's           | Incomplete |
+| Aug 19-20 | Proposal Approval / Airtable Setup / README         | Complete |
+| Aug 21-23   | render API data / complete MVP code | Complete |
+| Aug 24   | First four Post MVP's           | Complete |
 | Aug 25   | Last four Post MVP's                | Incomplete |
-| Aug 26   | Improve code and practice presentation                               | Incomplete |
-| Aug 27   | Project Completed                              | Incomplete |
+| Aug 26   | Improve code and practice presentation                               | Complete |
+| Aug 27   | Project Completed                              | Complete |
 
 ## Timeframes
 
@@ -70,20 +70,20 @@ https://whimsical.com/component-hierarchy-YTXpedZNpKUGR2ScSu96Kd
 | README           |    H     |      3hrs      |      3hr      |     3hrs     |
 | Home component      |    H     |      1hr      |     1hr      |    1hr     |
 | WOD specs component      |    H     |      1hr      |     2hrs      |    2hrs     |
-| Equip list component      |    L     |      1hr      |     -hrs      |    -hrs     |
+| Equip list component      |    L     |      1hr      |     1hr      |    1hr     |
 | WOD list component        |    H     |      1hr      |     2hrs      |    2hrs     |
 | Add WOD component        |    H     |      1hr      |     2hrs      |    2hrs    |
 | Edit WOD component        |    H     |      1hr      |     2hrs      |     2hrs     |
-| MVP CSS |    H     |      5hrs      |     -hrs      |    -hrs     |
-| Post MVP CSS |    L     |      4hrs      |      -hr      |     -hr     |
-| Adds |    L    |      2hrs      |      .5hr      |     -hr     |
+| MVP CSS |    H     |      5hrs      |     5hrs      |    5hrs     |
+| Post MVP CSS |    L     |      4hrs      |      5hrs      |     5hrs     |
+| Adds |    L    |      2hrs      |      .5hr      |     .5hr     |
 | YouTube videos        |    L     |      2hrs      |      -hr      |     -hr     |
 | Delete on Specs component        |    L     |      1hr      |      1hr      |     1hr     |
-| Hover event/ animations        |    L     |      4hrs      |      -hr      |     -hr     |
-| Linkedin/ github in footer        |    L     |      2hrs      |     .5hr      |    -hrs     |
+| Add Carousel        |    L     |      4hrs      |      5hrs      |     5hrs     |
+| Linkedin/ github in footer        |    L     |      2hrs      |     1hr      |    1hr     |
 | Add 'All the WOD's' component        |    L     |      2hrs      |     -hrs      |    -hrs     |
 | Adjust 'Give me a WOD'        |    L     |      2hrs      |     -hrs      |    -hrs     |
-| Total                     |    -     |    34hrs     |     -hrs     |    -hrs    |
+| Total                     |    -     |    34hrs     |     31.5hrs     |    31.5hrs    |
 
 ## SWOT Analysis
 
